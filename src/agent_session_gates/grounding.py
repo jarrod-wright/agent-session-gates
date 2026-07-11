@@ -21,8 +21,8 @@ class EvidenceResolver(Protocol):
     """Verifies that a piece of evidence actually resolves.
 
     Returns ``None`` when the evidence is out of scope for this resolver
-    (e.g. a URL passed to a file resolver), or a failure string describing
-    why resolution failed.
+    (e.g. a URL passed to a file resolver), a truthy pass, or a failure
+    string describing why resolution failed.
     """
 
     def resolve(self, evidence: Evidence) -> str | None:

@@ -40,6 +40,7 @@ def test_to_dict_is_json_serialisable() -> None:
     assert d["status"] == "BLOCK"
     assert d["reason"] == "ungrounded"
     assert d["details"] == {"evidence_count": 0}
+    # round-trips through json with no custom encoder
     assert json.loads(json.dumps(d)) == d
 
 

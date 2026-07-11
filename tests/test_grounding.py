@@ -62,6 +62,7 @@ def test_file_resolver_blocks_on_checksum_mismatch(tmp_path: Path) -> None:
 
 
 def test_resolver_ignores_non_file_evidence(tmp_path: Path) -> None:
+    # a URL evidence is structurally valid and the file resolver leaves it alone
     ev = [Evidence(EvidenceKind.URL, "https://example.test/x")]
     gate = GroundingGate(resolver=FileEvidenceResolver())
     assert gate.check(_decision(ev)).status is GateStatus.PASS

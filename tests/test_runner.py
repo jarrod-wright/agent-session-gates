@@ -52,7 +52,7 @@ def test_fail_fast_stops_after_first_non_pass() -> None:
     report = GateRunner(
         [record("a", _block("a")), record("b", _pass("b"))], fail_fast=True
     ).run()
-    assert calls == ["a"]
+    assert calls == ["a"]  # second gate never ran
     assert report.exit_code == 1
 
 

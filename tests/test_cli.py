@@ -137,4 +137,4 @@ def test_continue_on_fail_runs_all_gates(tmp_path: Path, capsys: pytest.CaptureF
     code = main(["check", "--continue-on-fail", manifest])
     out = json.loads(capsys.readouterr().out)
     assert code == 1
-    assert len(out["results"]) == 2
+    assert len(out["results"]) == 2  # both gates ran, not just the first
