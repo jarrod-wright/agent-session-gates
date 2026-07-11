@@ -1,0 +1,1 @@
+p99 latency under retry storm: 412ms (n=10000, measured 2026-07-10)

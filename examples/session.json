@@ -1,0 +1,25 @@
+{
+  "decision": {
+    "id": "ADR-017",
+    "statement": "Adopt the queue-backed retry strategy for the ingestion worker.",
+    "evidence": [
+      {
+        "kind": "file",
+        "locator": "examples/benchmark.txt",
+        "checksum": "7ce584ea2d941a017d5d1c3b53f1c20452fb15572a24d9d6b0318b35b21706dc"
+      },
+      {
+        "kind": "url",
+        "locator": "https://example.test/adr-017-notes"
+      },
+      {
+        "kind": "id",
+        "locator": "TICKET-4821"
+      }
+    ]
+  },
+  "spec": {
+    "id": "JOB-ingestion-retry",
+    "open_questions": []
+  }
+}
