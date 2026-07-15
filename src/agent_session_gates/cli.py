@@ -81,7 +81,7 @@ def main(argv: Sequence[str] | None = None) -> int:
     if getattr(args, "func", None) is None:
         parser.print_usage(sys.stderr)
         return 2
-    report = args.func(args)
+    report: RunReport = args.func(args)
     print(json.dumps(report.to_dict(), indent=2))
     return report.exit_code
 

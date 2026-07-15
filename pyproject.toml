@@ -22,14 +22,14 @@ classifiers = [
 dependencies = []
 
 [project.urls]
-Homepage = "https://github.com/OWNER/agent-session-gates"
-Repository = "https://github.com/OWNER/agent-session-gates"
+Homepage = "https://github.com/jazzahupwork-boop/agent-session-gates"
+Repository = "https://github.com/jazzahupwork-boop/agent-session-gates"
 
 [project.scripts]
 agent-session-gates = "agent_session_gates.cli:main"
 
 [project.optional-dependencies]
-dev = ["pytest>=8", "pytest-cov>=5"]
+dev = ["pytest>=8", "pytest-cov>=5", "ruff>=0.6", "mypy>=1.11"]
 
 [tool.setuptools.packages.find]
 where = ["src"]
