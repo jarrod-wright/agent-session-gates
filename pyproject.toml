@@ -22,8 +22,8 @@ classifiers = [
 dependencies = []
 
 [project.urls]
-Homepage = "https://github.com/jazzahupwork-boop/agent-session-gates"
-Repository = "https://github.com/jazzahupwork-boop/agent-session-gates"
+Homepage = "https://github.com/jarrod-wright/agent-session-gates"
+Repository = "https://github.com/jarrod-wright/agent-session-gates"
 
 [project.scripts]
 agent-session-gates = "agent_session_gates.cli:main"
