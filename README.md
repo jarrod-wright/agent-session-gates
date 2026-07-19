@@ -2,7 +2,7 @@
 
 Deterministic pre-flight gates for agent and automation workflows.
 
-[![ci](https://github.com/jazzahupwork-boop/agent-session-gates/actions/workflows/ci.yml/badge.svg)](https://github.com/jazzahupwork-boop/agent-session-gates/actions/workflows/ci.yml)
+[![ci](https://github.com/jarrod-wright/agent-session-gates/actions/workflows/ci.yml/badge.svg)](https://github.com/jarrod-wright/agent-session-gates/actions/workflows/ci.yml)
 [![python](https://img.shields.io/badge/python-3.12%2B-blue)](https://www.python.org/)
 [![license: MIT](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
