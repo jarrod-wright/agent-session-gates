@@ -28,7 +28,7 @@ is caught and recorded as `ERROR`, never silently skipped.
 ## Install
 
 ```bash
-pip install agent-session-gates      # from a release
+pip install "git+https://github.com/jarrod-wright/agent-session-gates"   # latest from GitHub
 pip install -e ".[dev]"              # from a checkout, with test deps
 ```
 
